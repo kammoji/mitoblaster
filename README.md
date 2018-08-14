@@ -1,1 +1,25 @@
 # mitoblaster
+
+SourceForge addict kammoji proudly presents:
+
+MitoBlaster v. 0.1 - Stress relief game [sorta] (Project started on 28th June 2009 - Juhana "kammoji" Kammonen)
+---------------------------------------
+
+Programmers salute:
+
+Hi there, human beings! Don't you just hate mitochondria, those little blue/green bastards inside your cells giving energy to the cells? Well, I guess you don't hate them, but the thing is - I do! Don't ask me why, I just do. And it is that hatred that has inspired me to write this game. This game is also greatly inspired by a c64 game called "Lightforce".
+
+I've selected Python as my implementation language because the pygame-module looks very promising in programming this game. Music has been constructed using Explosiv's dance eJay 3. Sound FX have been made by using my own voice and computer technology to alter the voice to be more suitable for this game.
+
+
+Game storyline:
+
+Legend (sometimes even science) has it that mitochondria originate from outer space and came to Earth riding an asteroid almost 3 billion years ago. Those mitochondria were microscopic in size and they inflitrated the cellular wall of primitive cells dwelling in the Earth's ocean. In doing so the mitochondria gave the cells opportunity to harness them as power centers for the cells and laid basis for the development of ever more complex cellular tissues. Without the mitochondria it would have been impossible for life as we know it today to develop on Earth.
+
+But who would have thought that now, billions of years later the origin of those mitochondria has finally been revealed. They originate from the 13th planet of our Solar System and they are actually a sentient species. Some people tend to call this 13th planet "Planet X" or "Nibiru" but as they are only names we'll just call it the 13th planet. However, during all these years the mitochondria have grown in size and you know what, they've realized that it's pretty damn cold on the 13th planet, far behind the orbit of Pluto. As you might have guessed it, the mitochondria have chosen Earth as their future home.
+
+On 4th July 2013 NASA intercepted an electromagnetic transmission from space. The scientists are certain that this transmission came from the 13th planet and it was like someone saying: "Mrorff! We are sickened by this cold place! Let's go to Earth, there's almost 30 degrees celcius even in Finland - well at least in June." About a year after this space telescope Hubble got the first images of a massive army of mitochondria crossing the orbit of Jupiter heading straight for Earth.
+
+Your mission, Player One, is of course to stop the mitochondria. Who knows what they might want to do when they get here? You have only one objective: the total annihilation of all mitochondria you encounter. The scientists are not certain how big the mitochondria have grown during their evolution. The telescope images were also very grainy. Still, the scientists are expecting that one "Supremacy" -class starfighter armed with two laser cannons and a full load of heavy bombs will take care of them. One fighter is also the only piece of equipment that the newly formed Earth Army is willing to lend you to take care of this problem and they are urging you: "If we see as much as a tiny scrape mark on our precious fighter when you return..."
+
+So, buckle up, Player One! You are sent alone to deep space just behind the orbit of Mars to intercept the enemy. Your ancestor cells prevailed the battle against the mitochondria in the end. Can you do the same? Good luck for your mission!   
