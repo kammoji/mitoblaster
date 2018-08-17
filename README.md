@@ -1,18 +1,18 @@
 # mitoblaster
 
-SourceForge addict kammoji proudly presents:
+Konekettu proudly presents:
 
-MitoBlaster v. 0.1 - Stress relief game [sorta] (Project started on 28th June 2009 - Juhana "kammoji" Kammonen)
+#MitoBlaster v. 0.1 - Stress relief game (Project started on 28th June 2009 - Juhana "kammoji" Kammonen)
 ---------------------------------------
 
-Programmers salute:
+#Programmers salute:
 
 Hi there, human beings! Don't you just hate mitochondria, those little blue/green bastards inside your cells giving energy to the cells? Well, I guess you don't hate them, but the thing is - I do! Don't ask me why, I just do. And it is that hatred that has inspired me to write this game. This game is also greatly inspired by a c64 game called "Lightforce".
 
 I've selected Python as my implementation language because the pygame-module looks very promising in programming this game. Music has been constructed using Explosiv's dance eJay 3. Sound FX have been made by using my own voice and computer technology to alter the voice to be more suitable for this game.
 
 
-Game storyline:
+#Game storyline:
 
 Legend (sometimes even science) has it that mitochondria originate from outer space and came to Earth riding an asteroid almost 3 billion years ago. Those mitochondria were microscopic in size and they inflitrated the cellular wall of primitive cells dwelling in the Earth's ocean. In doing so the mitochondria gave the cells opportunity to harness them as power centers for the cells and laid basis for the development of ever more complex cellular tissues. Without the mitochondria it would have been impossible for life as we know it today to develop on Earth.
 
