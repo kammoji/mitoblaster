@@ -2,8 +2,15 @@
 
 Konekettu proudly presents:
 
-#MitoBlaster v. 0.1 - Stress relief game (Project started on 28th June 2009 - Juhana "kammoji" Kammonen)
+#MitoBlaster v. 0.1 (prealpha)
 ---------------------------------------
+
+#Prerequisites
+
+python >= 2.6, pygame-moduled
+
+TODO: Prerequisite install instructions...
+
 
 #Programmers salute:
 
