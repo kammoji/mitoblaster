@@ -1,11 +1,12 @@
 #!usr/bin/env /python
 #
 # Filename : sprites.py
-# Author : Juhana Kammonen 25.08.2009 - for JukiWeb Merseine
+# Author : Juhana Kammonen 25 Sep 2018 - for Konekettu
 # Purpose : the file for all sprite classes needed by game MitoBlaster
 
 import pygame
 
+#MENU SCREEN POINTER SPRITES:
 class PointerL(pygame.sprite.Sprite):
     def __init__(self, initial_position):
 

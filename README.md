@@ -1,15 +1,9 @@
 # mitoblaster
 
-Konekettu proudly presents:
+Konekettu presents:
 
 #MitoBlaster v. 0.1 (prealpha)
 ---------------------------------------
-
-#Prerequisites
-
-python >= 2.6, pygame-moduled
-
-TODO: Prerequisite install instructions...
 
 
 #Programmers salute:
@@ -30,3 +24,9 @@ On 4th July 2013 NASA intercepted an electromagnetic transmission from space. Th
 Your mission, Player One, is of course to stop the mitochondria. Who knows what they might want to do when they get here? You have only one objective: the total annihilation of all mitochondria you encounter. The scientists are not certain how big the mitochondria have grown during their evolution. The telescope images were also very grainy. Still, the scientists are expecting that one "Supremacy" -class starfighter armed with two laser cannons and a full load of heavy bombs will take care of them. One fighter is also the only piece of equipment that the newly formed Earth Army is willing to lend you to take care of this problem and they are urging you: "If we see as much as a tiny scrape mark on our precious fighter when you return..."
 
 So, buckle up, Player One! You are sent alone to deep space just behind the orbit of Mars to intercept the enemy. Your ancestor cells prevailed the battle against the mitochondria in the end. Can you do the same? Good luck for your mission!   
+
+#Prerequisites
+
+python >= 2.6, pygame-module
+
+TODO: Prerequisite install instructions...

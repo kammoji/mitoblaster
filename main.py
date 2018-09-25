@@ -1,7 +1,7 @@
 #!usr/bin/env/ python
 #
 # Filename : main.py
-# Author : Juhana Kammonen for JukiWeb Merseine
+# Author : Juhana Kammonen for Konekettu Sep 25 2018
 # Purpose : MitoBlaster v0.1 main program file
 
 import sys, pygame # brings on your system and your pygame module
