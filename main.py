@@ -26,7 +26,8 @@ def gimmeMain():
                 pygame.mixer.set_num_channels(1)
                 music = pygame.mixer.Sound('data/main.ogg')
                 music.play(-1)
-        
+
+	# Blitting means approximately the same as PAINT        
         newFont = pygame.font.Font('data/font/DOWN.TTF', 12)
         startText = newFont.render("START GAME", 1, (152, 251, 152))
         optionsText = newFont.render("OPTIONS", 1, (152, 251, 152))
