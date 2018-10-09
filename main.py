@@ -72,8 +72,10 @@ def gimmeMain():
 def handle(event, pointerList): # event handler
 
         global initialPositions, selection, slct, slct_changed
-        print initialPositions
-        print event
+        
+	# CONSOLE OUTPUTS for DEBUG, disable comments to enable console:
+	#print initialPositions
+        #print event
 
         if event.dict['key'] == 273:
 
