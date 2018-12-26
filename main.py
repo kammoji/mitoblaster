@@ -67,6 +67,13 @@ def gimmeMain():
                                                 music.play(-1)
                                                 slct_changed = False
 
+                                if selection == "STORY":
+                                        if pygame.mixer:
+                                                music.stop()
+                                                music = pygame.mixer.Sound('data/level_two.ogg')
+                                                music.play(-1)
+                                                slct_changed = False
+
         return("EXIT GAME")                
 
 def handle(event, pointerList): # event handler
