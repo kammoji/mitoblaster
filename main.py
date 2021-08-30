@@ -3,15 +3,16 @@
 # Filename : main.py
 # Author : Juhana Kammonen for Konekettu Sep 25 2018
 # Purpose : MitoBlaster v0.1 main program file
+# UPDATE: 30.8.2021 for Python 3 compatibility
 
-import sys, pygame # brings on your system and your pygame module
-import os.path # imports your operational system path
+import sys, pygame
+import os.path
 
 from pygame.locals import *
-from sprites import * # import all sprites to the main file
+from sprites import *
 
 selections = ["START", "OPTIONS", "STORY", "EXIT GAME"]
-slct = 0 #idx of selection state
+slct = 0
 selection = selections[slct]
 slct_changed = False
 global event
@@ -42,8 +43,8 @@ def gimmeMain():
         background.blit(storyText, storyTextPos)
         background.blit(exitText, exitTextPos)
 
-        pointerL = PointerL(initialPositions[0]) # left pointer with start position at "START GAME"
-        pointerR = PointerR(initialPositions[1]) # right pointer with start position at "START GAME"
+        pointerL = PointerL(initialPositions[0])
+        pointerR = PointerR(initialPositions[1])
         screen.blit(background, (22, 0))
         screen.blit(pointerL.image, pointerL.rect)
         screen.blit(pointerR.image, pointerR.rect)
@@ -76,19 +77,20 @@ def gimmeMain():
 
         return("EXIT GAME")                
 
-def handle(event, pointerList): # event handler
+def handle(event, pointerList):
 
         global initialPositions, selection, slct, slct_changed
         
 	# CONSOLE OUTPUTS for DEBUG, disable comments to enable console:
 	#print initialPositions
         #print event
-
-        if event.dict['key'] == 273:
+        key_is = pygame.key.get_pressed()
+        if key_is[K_UP]:
 
                 #Selection pointer up move:
 
-                if (slct-1 < 0): # set pointers downmost
+                #Set pointers downmost:
+                if (slct-1 < 0):
                         slct = 3
                         initialPositions = [[initialPositions[0][0], initialPositions[0][1]+(3*26)],
                                             [initialPositions[1][0], initialPositions[1][1]+(3*26)]]
@@ -102,11 +104,12 @@ def handle(event, pointerList): # event handler
                         screen.blit(background, (22, 0))
                         rollMenuAnimation(pointerList) 
                 
-        elif event.dict['key'] == 274:
+        elif key_is[K_DOWN]:
                 
 		#Selection pointer down move
 
-                if (slct+1 >= len(selections)): # return pointers upmost
+                #return pointers upmost
+                if (slct+1 >= len(selections)):
                         slct = 0
                         initialPositions = [[initialPositions[0][0], initialPositions[0][1]-(3*26)],
                                             [initialPositions[1][0], initialPositions[1][1]-(3*26)]]
@@ -120,12 +123,12 @@ def handle(event, pointerList): # event handler
                         rollMenuAnimation(pointerList)
 
 
-        elif event.dict['key'] == 13: # return key pressed
+        elif key_is[K_RETURN]:
                 selection = selections[slct]
                 slct_changed = True
                 
         else:
-                print 'The key was irrelevant.'
+                print('The key was irrelevant.')
 		#TODO: Other functionality
 
 def rollMenuAnimation(pointerList):
@@ -141,7 +144,7 @@ def rollMenuAnimation(pointerList):
         pygame.display.flip()
         return True
 
-pygame.init() # initialize the pygame module
+pygame.init()
 
 size = width, height = 600, 600
 
