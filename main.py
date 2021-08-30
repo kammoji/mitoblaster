@@ -3,7 +3,7 @@
 # Filename : main.py
 # Author : Juhana Kammonen for Konekettu Sep 25 2018
 # Purpose : MitoBlaster v0.1 main program file
-# UPDATE: 30.8.2021 for Python 3 compatibility
+# UPDATE: 30.8.2021 for full Python 3 compatibility
 
 import sys, pygame
 import os.path
