@@ -5,12 +5,13 @@ Konekettu presents:
 #MitoBlaster v. 0.1 (prealpha)
 ---------------------------------------
 
-
 #Programmers salute:
 
-Hi there, human beings! Don't you just hate mitochondria, those little blue/green bastards inside your cells giving energy to the cells? Well, I guess you don't hate them, but the thing is - I do! Don't ask me why, I just do. And it is that hatred that has inspired me to write this game. This game is also greatly inspired by a c64 game called "Lightforce".
+Programmers salute:
 
-I've selected Python as my implementation language because the pygame-module looks very promising in programming this game. Music has been constructed using Explosiv's dance eJay 3. Sound FX have been made by using my own voice and computer technology to alter the voice to be more suitable for this game.
+Hi there, human beings! You know mitochondria, those little blue/green bastards inside your cells giving energy to the cells? Well, it's time to shoot some!
+
+I've selected Python as my implementation language because the pygame-module looks very promising in programming this game. Music has been constructed using Explosiv's dance eJay 3. Sound FX have been made in-house.
 
 
 #Game storyline:

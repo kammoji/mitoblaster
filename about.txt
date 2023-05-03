@@ -6,14 +6,18 @@ MitoBlaster v. 0.1 - Stress relief game (Project started on 28th June 2009 - Juh
 
 Programmers salute:
 
-Hi there, human beings! Don't you just hate mitochondria, those little blue/green bastards inside your cells giving energy to the cells? Well, I guess you don't hate them, but the thing is it was mitochondria that inspired me to write this game. This game is also greatly inspired by a c64 game called "Lightforce".
+Hi there, human beings! You know mitochondria, those little blue/green bastards inside your cells giving energy to the cells? Well, it's time to shoot some!
 
+<<<<<<< HEAD
 I've selected Python as my implementation language because the pygame-module looks very promising in programming this game. Music has been constructed using Explosiv's dance eJay 3. Sound FX have been made in-house
+=======
+I've selected Python as my implementation language because the pygame-module looks very promising in programming this game. Music has been constructed using Explosiv's dance eJay 3. Sound FX have been made in-house.
+>>>>>>> 7be17c75336655c6ce61bffccff4e8adb01c7ee6
 
 
 Game storyline:
 
-Legend (sometimes even science) has it that mitochondria originate from outer space and came to Earth riding an asteroid almost 3 billion years ago. Those mitochondria were microscopic in size and they inflitrated the cellular wall of primitive cells dwelling in the Earth's ocean. In doing so the mitochondria gave the cells opportunity to harness them as power centers for the cells and laid basis for the development of ever more complex cellular tissues. Without the mitochondria it would have been impossible for life as we know it today to develop on Earth.
+Legend (sometimes science) has it that mitochondria originate from outer space and came to Earth riding an asteroid almost 3 billion years ago. Those mitochondria were microscopic in size and they inflitrated the cellular wall of primitive cells dwelling in the Earth's ocean. In doing so the mitochondria gave the cells opportunity to harness them as power centers for the cells and laid basis for the development of ever more complex cellular tissues. Without the mitochondria it would have been impossible for life as we know it today to develop on Earth.
 
 But who would have thought that now, billions of years later the origin of those mitochondria has finally been revealed. They originate from the 13th planet of our Solar System and they are actually a sentient species. Some people tend to call this 13th planet "Planet X" or "Nibiru" but as they are only names we'll just call it the 13th planet. However, during all these years the mitochondria have grown in size and you know what, they've realized that it's pretty damn cold on the 13th planet, far behind the orbit of Pluto. As you might have guessed it, the mitochondria have chosen Earth as their future home.
 
